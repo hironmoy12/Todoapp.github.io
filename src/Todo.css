@@ -1,0 +1,96 @@
+* {
+  background: blue;
+}
+
+.box {
+  background-color: green;
+  border-radius: 10px;
+  height: 100%;
+  padding-bottom: 38px;
+  width: 800px;
+  margin-top: 50px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.text-box {
+  background: green;
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.text-box input {
+  border-radius: 10px;
+  width: 580px;
+  outline: none;
+  border: 0;
+  height: 69px;
+  background: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text-box button {
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+  background: orange;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h1 {
+  background: green;
+  padding-top: 20px;
+}
+
+.task-list {
+  background: green;
+  list-style: none;
+  width: 701px;
+  margin: 17px auto;
+  padding-left: 0 !important;
+
+}
+
+.task-list li {
+  background: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 19px;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.task-list li button {
+  margin-left: 67px;
+  width: 115px;
+  height: 52px;
+  border-radius: 10px;
+  background: red;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+}
+
+.no-text {
+  background: antiquewhite;
+  padding: 26px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin: 32px;
+  font-size: 29px;
+}
